@@ -1,16 +1,31 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Non-Repeating Character Finder</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="container">
+        <h1>First Non-Repeating Character</h1>
+        <div class="input-section">
+            <label for="stringInput">Enter a string (lowercase letters only):</label>
+            <input type="text" id="stringInput" placeholder="e.g., aabbcdd">
+            <button id="findButton">Find First Non-Repeating Character</button>
+        </div>
+        <div class="result-section">
+            <h2>Result:</h2>
+            <div id="result"></div>
+        </div>
+        <div class="examples">
+            <h3>Examples:</h3>
+            <ul>
+                <li>'aabbcdd' → 'c'</li>
+                <li>'aabbcc' → null</li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
-
 </html>
